@@ -1,7 +1,7 @@
 # Terragrunt will copy the Terraform configurations specified by the source parameter, along with any files in the 
   # working directory, into a temporary folder, and execute your Terraform commands in that folder. 
   terraform { 
-    source = "git::https://git@github.com/marcusmleite/terraform-module-resource-group.git?ref=v1.0.3" 
+    source = "git::https://git@github.com/marcusmleite/terraform-module-resource-group.git?ref=v1.0.4" 
       extra_arguments "custom_vars" { 
       commands = ["apply", "console", "destroy", "import", "plan", "push", "refresh"] 
       # With the get_terragrunt_dir() function, you can use relative paths! 
