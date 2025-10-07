@@ -1,8 +1,8 @@
 remote_state {
   backend = "azurerm"
   config = {
-    resource_group_name  = "rg-storage"
-    storage_account_name = "saterraform1754"
+    resource_group_name  = "rg-tfstate-dev"
+    storage_account_name = "saminfinstate"
     container_name       = "terraform"
     key                  = "minfin-foundation/${path_relative_to_include()}/terraform.tfstate"
   }
